@@ -5,7 +5,7 @@ p {
     text-align: center; color: gold;
 }
 body {
-    background: darkorchid;
+    background: #941494;
     font-family: Arial, Helvetica, sans-serif;
     margin: 40px;
 }
@@ -14,10 +14,19 @@ h1 {
     text-align: center;
 }
 
-.about{
-    background: gold;
+.about {
+    color: #edc8ff;
 }
 .center {
     text-align: center;
     color: gold;
+}
+.contact {
+    color: #edc8ff;
+}
+.projects {
+    color: #edc8ff;
+}
+.skills {
+    color: #edc8ff;
 }
