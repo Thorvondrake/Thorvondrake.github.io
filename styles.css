@@ -24,9 +24,19 @@ h1 {
 .contact {
     color: #edc8ff;
 }
+.project {
+    width: 30%;
+    margin: 10px;
+    padding: 20px 10px;
+    background: #bf49bf; /* pick a color */
+    border-radius: 25%;
+}
 .projects {
     color: #edc8ff;
+    display: flex;
+    flex-wrap: wrap; /* condensed to save space */
 }
 .skills {
     color: #edc8ff;
 }
+
