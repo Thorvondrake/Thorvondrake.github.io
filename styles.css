@@ -13,7 +13,10 @@ h1 {
     color: black;
     text-align: center;
 }
-
+a { /* change the appearance of ALL links */
+    text-decoration: none;
+    color: purple;
+}
 .about {
     color: #edc8ff;
 }
@@ -28,8 +31,20 @@ h1 {
     width: 30%;
     margin: 10px;
     padding: 20px 10px;
-    background: #bf49bf; /* pick a color */
+    background: #bf49bf;
     border-radius: 25%;
+}
+.project img{
+    width: 300px;
+    height: 300px;
+    margin: 10px;
+    border: 2px solid rgb(126, 14, 201); /* choose a color */
+    display: block;
+    margin: auto;
+}
+project p { /* change the appearance of paragraph tags inside .project divs */
+    text-align: center;
+    margin: 15px;
 }
 .projects {
     color: #edc8ff;
