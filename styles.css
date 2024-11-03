@@ -18,7 +18,23 @@ a { /* change the appearance of ALL links */
     color: purple;
 }
 .about {
-    color: #edc8ff;
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: 100px;
+    margin-left: 100px;
+    justify-content: center;
+}
+.about img {
+width: 150px;
+height: 200px;
+border-radius: 25%;
+border: 2px solid gold;
+}
+.about p {
+width:50%;
+text-align: center;
+margin: auto;
+line-height: 125%;
 }
 .center {
     text-align: center;
